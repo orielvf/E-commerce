@@ -1,6 +1,8 @@
+//icones
 import { GrFormNextLink } from "react-icons/gr";
 import { GrFormPreviousLink } from "react-icons/gr";
-import  bannerImage  from '../assets/banner01.svg';
+//imagens
+import  bannerImage  from '../assets/image01.gif';
 
 function Banner() {
     return(
