@@ -4,7 +4,7 @@ import { GrFormPreviousLink } from "react-icons/gr";
 //imagens
 import  bannerImage  from '../assets/image01.gif';
 
-function Banner() {
+export default function Banner() {
     return(
     <>
     <GrFormPreviousLink style={{
@@ -19,10 +19,8 @@ function Banner() {
             //alignItems: 'center',     // Centraliza verticalmente
         }}>
             <img src={bannerImage} alt="Banner" />
-        </div>
+    </div>
 
     </>
     
 )}
-    
-export default Banner
