@@ -1,0 +1,90 @@
+#Item {
+    background-color: white;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    padding-top: 8px;
+}
+
+#Item-img {
+    margin-top: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#Item-botton {
+    text-align: left;
+}
+
+#Item-comprar {
+    color: white;
+    background: linear-gradient(to right, black 65%, rgb(59, 59, 59) 100%);
+    border-radius: 5px;
+    padding: 6px;
+    margin: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+#Item-comprar-carrinho {
+    margin-right: 6px;
+}
+
+#Item-botton-caminhao {
+    padding-left: 10px;
+    padding-right: 8px;
+}
+
+#Item-botton-div-frete-gratis {
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    background-color: #078333;
+    border-radius: 15px;
+    padding-right: 6px;
+    cursor: pointer;
+}
+
+#Item-top-promoAtual {
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 15px;
+    padding-right: 6px;
+    padding-left: 10px;
+    padding-right: 8px;
+}
+
+#Item-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Item-top-coracaoEcarrinho {
+    display: flex;
+}
+
+
+
+.default {
+    display: flex;
+    /* Mostra a estrela inicialmente */
+}
+
+.hover {
+    display: none;
+    /* Esconde "Favorito" e "Carrinho" inicialmente */
+}
+
+/* Quando o mouse está sobre o elemento */
+#Item:hover .default {
+    display: none;
+    /* Esconde a estrela */
+}
+
+#Item:hover .hover {
+    display: flex;
+    /* Mostra "Favorito" e "Carrinho" */
+}

@@ -12,8 +12,10 @@
 }
 
 .swiper-pagination-bullet {
-    width: 25px; /* Largura */
-    height: 6px; /* Altura */
+    width: 25px;
+    /* Largura */
+    height: 6px;
+    /* Altura */
     border-radius: 15px;
 }
 
