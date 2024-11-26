@@ -15,8 +15,6 @@ export default function Item({ }: ItemProps) {
                 <div id="Item-top-coracaoEcarrinho">
                     <Coracao className="hover" />
                     <CarrinhoInserir className="hover" />
-                </div>
-                <div id="Item-top-estrela">
                     <span className="default">estrela</span>
                 </div>
             </div>
@@ -30,7 +28,7 @@ export default function Item({ }: ItemProps) {
                     <Caminhao id="Item-botton-caminhao"></Caminhao>
                     <span>Frete grátis*</span>
                 </div>
-                <p>descricao</p>
+                <p id="Descricao">Processador AMD Ryzen 7 5700X, 3.4GHz (4.6GHz Max Turbo), Cache 36MB, AM4, Sem Vídeo - 100-100000926WOF</p>
                 <p>precoAntigo</p>
                 <p>precoAtual</p>
                 <p>desconto</p>
