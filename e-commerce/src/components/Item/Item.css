@@ -63,7 +63,9 @@
 
 #Item-top-coracaoEcarrinho {
     display: flex;
-    padding-right: 10px;
+    padding-right: 8px;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -87,4 +89,43 @@
 #Item:hover .hover {
     display: flex;
     /* Mostra "Favorito" e "Carrinho" */
+}
+
+#Fidelidade {
+    display: flex;
+    align-items: center;
+}
+
+#FidelidadeEstrela {
+    color: #f08522;
+}
+
+#PrecoAtual {
+    display: flex;
+    align-items: center;
+}
+
+#PrecoAtualItem {
+    color: #f08522;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 6px;
+}
+
+#PrecoAtualDesconto {
+    justify-content: center;
+    font-size: 12px;
+    padding: 0, 4px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    /* Largura */
+    width: 30px;
+    /* Altura */
+    height: 16px;
+}
+
+#PrecoAntigo {
+    text-decoration: line-through;
+    color: gray;
 }

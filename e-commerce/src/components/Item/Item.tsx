@@ -1,5 +1,5 @@
 import './Item.css';
-import { Carrinho, MenuCelular, Caminhao, Coracao, CarrinhoInserir } from './index';
+import { Carrinho, Caminhao, Coracao, CarrinhoInserir, EstrelaCheia } from './index';
 
 interface ItemProps {
 }
@@ -15,7 +15,12 @@ export default function Item({ }: ItemProps) {
                 <div id="Item-top-coracaoEcarrinho">
                     <Coracao className="hover" />
                     <CarrinhoInserir className="hover" />
-                    <span className="default">estrela</span>
+                    <EstrelaCheia className="default" style={{ color: "#f08522" }} />
+                    <EstrelaCheia className="default" style={{ color: "#f08522" }} />
+                    <EstrelaCheia className="default" style={{ color: "#f08522" }} />
+                    <EstrelaCheia className="default" style={{ color: "#f08522" }} />
+                    <EstrelaCheia className="default" style={{ color: "#f08522", padding: "0px" }} />
+                    <span className="default" style={{ fontSize: "11px", marginTop: "0px", paddingLeft: "4px" }}>(442)</span>
                 </div>
             </div>
 
@@ -29,11 +34,20 @@ export default function Item({ }: ItemProps) {
                     <span>Frete grátis*</span>
                 </div>
                 <p id="Descricao">Processador AMD Ryzen 7 5700X, 3.4GHz (4.6GHz Max Turbo), Cache 36MB, AM4, Sem Vídeo - 100-100000926WOF</p>
-                <p>precoAntigo</p>
-                <p>precoAtual</p>
-                <p>desconto</p>
-                <p>parcela</p>
-                <p>fidelidade</p>
+
+                <p id="PrecoAntigo">R$ 1.333,32</p>
+
+                <div id="PrecoAtual">
+                    <p id="PrecoAtualItem">R$ 1.109,99</p>
+                    <p id="PrecoAtualDesconto" className="default" >-6%</p>
+                </div>
+
+                <p id="Parcela">À vista no PIX<br></br>ou até <b>10x de 145,55</b></p>
+
+                <div id="Fidelidade">
+                    <EstrelaCheia id="FidelidadeEstrela" />
+                    <p>prime<strong>ninja</strong></p>
+                </div>
             </div>
             <div id="Item-comprar">
                 <Carrinho id="Item-comprar-carrinho"></Carrinho>
