@@ -1,15 +1,18 @@
 .swiper {
-    padding: 32px;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
 }
 
 .swiper-slide {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #f08522;
+    background-color: white;
 }
+
 
 .swiper-pagination-bullet {
     width: 25px;
@@ -20,9 +23,9 @@
 }
 
 .swiper-button-prev {
-    color: black;
+    color: white;
 }
 
 .swiper-button-next {
-    color: black;
+    color: white;
 }

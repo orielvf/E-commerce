@@ -9,13 +9,13 @@ import './Slider.css';
 //Import React components
 import { ReactNode } from 'react';
 
-interface SliderProps{
-    settings : SwiperProps
-    children : ReactNode
+interface SliderProps {
+    settings: SwiperProps
+    children: ReactNode
 }
 
-export default function Slider({settings, children}: SliderProps) {
-    return <Swiper modules={[Navigation, Pagination, A11y]} {... settings}>
+export default function Slider({ settings, children }: SliderProps) {
+    return <Swiper modules={[Navigation, Pagination, A11y]} {...settings}>
         {children}
     </Swiper>;
 

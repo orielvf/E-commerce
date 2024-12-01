@@ -4,15 +4,17 @@ import './App.css'
 import Slider from './components/Slider/Slider';
 import { SwiperProps, SwiperSlide } from 'swiper/react';
 //Import React components
-import Banner from './components/Banner';
 import Header from './components/Header';
+import Container from './components/Container/container';
 import Item from './components/Item/Item';
+import Banner from './components/Banner/Banner';
+
 
 
 export default function App() {
   const settings: SwiperProps = {
-    slidesPerView: 1,
-    spaceBetween: 30,
+    slidesPerView: 4,
+    spaceBetween: 130,
     loop: true,
     //pagination: false,// {clickable: true},
     pagination: { clickable: true },
@@ -22,23 +24,7 @@ export default function App() {
 
   return (
     <div>
-      <Header />
       <Banner />
-      <Slider settings={settings}>
-        <SwiperSlide>
-          <h1>teste 1</h1>
-        </SwiperSlide>
-        <SwiperSlide>
-          <h1>teste 2</h1>
-        </SwiperSlide>
-        <SwiperSlide>
-          <h1>teste 3</h1>
-        </SwiperSlide>
-        <SwiperSlide>
-          <h1>teste 4</h1>
-        </SwiperSlide>
-      </Slider>
-      <Item />
     </div>
 
   )

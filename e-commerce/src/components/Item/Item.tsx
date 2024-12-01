@@ -10,7 +10,7 @@ export default function Item({ }: ItemProps) {
 
             <div id="Item-top">
                 <div id="Item-top-promoAtual">
-                    <span>promoAtual</span>
+                    <span>OFERTA BLACK FRIDAY</span>
                 </div >
                 <div id="Item-top-coracaoEcarrinho">
                     <Coracao className="hover" />
