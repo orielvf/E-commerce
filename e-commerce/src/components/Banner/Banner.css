@@ -1,0 +1,48 @@
+#Banner {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* Faz o slider ocupar toda a largura do contêiner */
+    height: auto;
+    /* Permite que a altura do slider seja proporcional */
+}
+
+.Swiper {
+    width: 100%;
+    /* Ajusta o Swiper ao tamanho do contêiner pai */
+    height: 100%;
+    /* Garante que o Swiper ocupe a altura total */
+}
+
+.Swiper .item img {
+    width: 100%;
+    /* A imagem ocupa toda a largura do slide */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    object-fit: cover;
+    /* Ajusta o conteúdo da imagem ao contêiner */
+}
+
+.mySwiper .swiper-pagination-bullet {
+    width: 25px;
+    /* Largura */
+    height: 6px;
+    /* Altura */
+    border-radius: 15px;
+    background-color: white;
+    opacity: 100%;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+    background-color: orange;
+    opacity: 100%;
+}
+
+.mySwiper .swiper-button-prev {
+    color: white;
+}
+
+
+.mySwiper .swiper-button-next {
+    color: white;
+}
