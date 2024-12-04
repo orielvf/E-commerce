@@ -4,7 +4,7 @@ import './App.css'
 import Slider from './components/Slider/Slider';
 import { SwiperProps, SwiperSlide } from 'swiper/react';
 //Import React components
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import Container from './components/Container/container';
 import Item from './components/Item/Item';
 import Banner from './components/Banner/Banner';
@@ -24,7 +24,7 @@ export default function App() {
 
   return (
     <div>
-      <Banner />
+      <Header />
     </div>
 
   )
