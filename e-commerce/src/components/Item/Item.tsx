@@ -1,5 +1,5 @@
 import './Item.css';
-import { Carrinho, Caminhao, Coracao, CarrinhoInserir, EstrelaCheia } from './index';
+import { Carrinho, Caminhao, Coracao, CarrinhoInserir, EstrelaCheia } from '../index';
 
 interface ItemProps {
 }
